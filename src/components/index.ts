@@ -1,9 +1,9 @@
 import AppTable from './AppTable'
-import AppProductsList from './AppProductsList'
-import AppProduct from './AppProduct'
+import TodosList from './TodosList'
+import Todo from './Todo'
 
 export default {
   AppTable,
-  AppProductsList,
-  AppProduct,
+  TodosList,
+  Todo,
 }

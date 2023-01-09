@@ -11,9 +11,9 @@ const initialState: InitialState = {
 const todosSlice = createSlice({
   name: 'todos',
   initialState,
-reducers: {
-  addTodo: (state, action: PayloadAction<string>) => state,
-},
+  reducers: {
+    addTodo: (state, action: PayloadAction<string>) => state,
+  },
 })
 export const { addTodo } = todosSlice.actions
 
